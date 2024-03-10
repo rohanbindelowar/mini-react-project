@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mini-react-project/static/css/main.8aa79f30.css",
+    "main.js": "/mini-react-project/static/js/main.8ab5c827.js",
+    "index.html": "/mini-react-project/index.html",
+    "main.8aa79f30.css.map": "/mini-react-project/static/css/main.8aa79f30.css.map",
+    "main.8ab5c827.js.map": "/mini-react-project/static/js/main.8ab5c827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aa79f30.css",
+    "static/js/main.8ab5c827.js"
+  ]
+}
