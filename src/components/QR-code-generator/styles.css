@@ -1,0 +1,11 @@
+.qr-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}

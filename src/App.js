@@ -1,3 +1,4 @@
+import QRCodeGenerator from "./components/QR-code-generator";
 import ImageSlider from "./components/image-slider";
 import MoreProducts from "./components/more-products";
 import StarRating from "./components/star-rating";
@@ -21,6 +22,7 @@ function App() {
       <StarRating noOfStars={10}/>
       <div className="left-aside">
       <TreeView menu={menus}/>
+      <QRCodeGenerator/>
       </div>
     </div>
   );
