@@ -1,7 +1,9 @@
 import QRCodeGenerator from "./components/QR-code-generator";
 import ImageSlider from "./components/image-slider";
 import MoreProducts from "./components/more-products";
+import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import StarRating from "./components/star-rating";
+import LightDarkMode from "./components/theme-switch/LightDarkMode";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 
@@ -11,6 +13,7 @@ function App() {
     <div className="App">
       
         <div className="right-aside">
+       
         <ImageSlider url={"https://picsum.photos/v2/list?"}
         page={"1"}
         limit={"10"}/>
@@ -23,6 +26,7 @@ function App() {
       <div className="left-aside">
       <TreeView menu={menus}/>
       <QRCodeGenerator/>
+      <LightDarkMode/>
       </div>
     </div>
   );
