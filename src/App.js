@@ -1,3 +1,4 @@
+import ModelTest from "./components/Custom-model/modelTest";
 import QRCodeGenerator from "./components/QR-code-generator";
 import ImageSlider from "./components/image-slider";
 import MoreProducts from "./components/more-products";
@@ -27,6 +28,8 @@ function App() {
       <TreeView menu={menus}/>
       <QRCodeGenerator/>
       <LightDarkMode/>
+      <ModelTest/>
+     
       </div>
     </div>
   );

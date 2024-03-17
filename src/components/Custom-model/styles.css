@@ -1,0 +1,42 @@
+.button-cr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    
+}
+.model{
+    position: fixed;
+    padding: 10px;
+    top: 5vh;
+    left: 10vw;
+    width: 80vw;
+    height: 50vh;
+    background: #000;
+    margin: 0 auto;
+}
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    padding: 20px;
+}
+.header,.footer,.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 70%;
+    background: #888787;
+}
+.close-icon{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    cursor: pointer;
+}
