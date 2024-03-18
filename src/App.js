@@ -1,5 +1,6 @@
 import ModelTest from "./components/Custom-model/modelTest";
 import QRCodeGenerator from "./components/QR-code-generator";
+import GitProfileFinder from "./components/gitProfileFinder/GitProfileFinder";
 import ImageSlider from "./components/image-slider";
 import MoreProducts from "./components/more-products";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
@@ -29,7 +30,7 @@ function App() {
       <QRCodeGenerator/>
       <LightDarkMode/>
       <ModelTest/>
-     
+     <GitProfileFinder/>
       </div>
     </div>
   );

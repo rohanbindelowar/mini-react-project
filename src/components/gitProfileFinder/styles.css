@@ -1,0 +1,48 @@
+.searchBar{
+    width: 320px;
+}
+.git-profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+.avatar{
+    object-fit: cover;
+    width: 450px;
+    border: 1px solid;
+    border-radius: 60px;
+    background: #2c2c2c;
+}
+.details{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 3px;
+}
+.name{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.content-details{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+.name:hover{
+    color: rgb(5, 16, 121);
+    font-size: 31px;
+    border-bottom: 3px solid  rgb(5, 16, 121);
+    transition: all 0.5s;
+}
