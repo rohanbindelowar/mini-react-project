@@ -4,6 +4,7 @@ import GitProfileFinder from "./components/gitProfileFinder/GitProfileFinder";
 import ImageSlider from "./components/image-slider";
 import MoreProducts from "./components/more-products";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
+import SearchAutoComplete from "./components/searchAutoComplete/SearchAutoComplete";
 import StarRating from "./components/star-rating";
 import LightDarkMode from "./components/theme-switch/LightDarkMode";
 import TreeView from "./components/tree-view";
@@ -31,6 +32,7 @@ function App() {
       <LightDarkMode/>
       <ModelTest/>
      <GitProfileFinder/>
+     <SearchAutoComplete/>
       </div>
     </div>
   );
