@@ -7,6 +7,7 @@ import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import SearchAutoComplete from "./components/searchAutoComplete/SearchAutoComplete";
 import StarRating from "./components/star-rating";
 import LightDarkMode from "./components/theme-switch/LightDarkMode";
+import TicTacToe from "./components/tic-tac-toe-game/TicTacToe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 
@@ -33,6 +34,7 @@ function App() {
       <ModelTest/>
      <GitProfileFinder/>
      <SearchAutoComplete/>
+     <TicTacToe/>
       </div>
     </div>
   );
