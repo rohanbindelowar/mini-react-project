@@ -11,6 +11,7 @@ import TicTacToe from "./components/tic-tac-toe-game/TicTacToe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import TestUseFetch from "./components/use-Fetch/TestUseFetch";
+import UseOnClickOutsideTest from "./components/use-outside-click/UseOnClickOutsideTest";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
      <SearchAutoComplete/>
      <TicTacToe/>
      <TestUseFetch/>
+     <UseOnClickOutsideTest/>
       </div>
     
     </div>
