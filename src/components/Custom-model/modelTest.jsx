@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import DynamicPopUp from "./DynamicPopUp";
 import "./styles.css";
 
@@ -7,20 +7,24 @@ export default function ModelTest() {
 
   function handlePopUp() {
     setShowPopUp(!showPopUp);
-  };
-  function onCLose() {
+  }
+  function onClose() {
     setShowPopUp(false);
-  };
-  console.log(showPopUp)
+  }
+  console.log(showPopUp);
   return (
     <div>
       <button onClick={handlePopUp} className="button-cr">
-        {
-            showPopUp===false? "Open the Pop Up":"Close the Pop Up"
-        }
+        {showPopUp === false ? "Open the Pop Up" : "Close the Pop Up"}
       </button>
       {showPopUp && (
-        <DynamicPopUp onCLose={onCLose} body={<div>This is customized</div>} />
+        <DynamicPopUp
+          id={"custom-id"}
+          header={<h1>Customized Header</h1>}
+          footer={<h1>Customized Footer</h1>}
+          body={<div>This is customized</div>}
+          onClose={onClose}
+        />
       )}
     </div>
   );
