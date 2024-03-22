@@ -12,6 +12,7 @@ import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import TestUseFetch from "./components/use-Fetch/TestUseFetch";
 import UseOnClickOutsideTest from "./components/use-outside-click/UseOnClickOutsideTest";
+import { UseWindowResizeTest } from "./components/use-window-size/UseWindowResizeTest";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
      <TicTacToe/>
      <TestUseFetch/>
      <UseOnClickOutsideTest/>
+     <UseWindowResizeTest/>
       </div>
     
     </div>
