@@ -10,6 +10,7 @@ import LightDarkMode from "./components/theme-switch/LightDarkMode";
 import TicTacToe from "./components/tic-tac-toe-game/TicTacToe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
+import TestUseFetch from "./components/use-Fetch/TestUseFetch";
 
 
 function App() {
@@ -35,7 +36,9 @@ function App() {
      <GitProfileFinder/>
      <SearchAutoComplete/>
      <TicTacToe/>
+     <TestUseFetch/>
       </div>
+    
     </div>
   );
 }
