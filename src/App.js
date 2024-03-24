@@ -1,5 +1,6 @@
 import ModelTest from "./components/Custom-model/modelTest";
 import QRCodeGenerator from "./components/QR-code-generator";
+import ScrollToTop from "./components/ScrollToTop";
 import GitProfileFinder from "./components/gitProfileFinder/GitProfileFinder";
 import ImageSlider from "./components/image-slider";
 import MoreProducts from "./components/more-products";
@@ -41,6 +42,7 @@ function App() {
      <TestUseFetch/>
      <UseOnClickOutsideTest/>
      <UseWindowResizeTest/>
+     <ScrollToTop/>
       </div>
     
     </div>

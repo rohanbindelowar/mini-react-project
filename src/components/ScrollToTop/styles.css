@@ -1,0 +1,26 @@
+.scrollTop{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    bottom: 10%;
+    right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.scrollTop:hover{
+    background: #999999;
+    color: white;
+}
+.scrollBottom{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    top: 10%;
+    right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.scrollBottom:hover{
+    background: #999999;
+    color: white;
+}
